@@ -1,0 +1,162 @@
+[
+    {
+        "id": 0,
+        "name": "Wade Warren",
+        "email": "wade.warren@gmail.com",
+        "gender": "Male",
+        "address": "471 Duncan Avenue New York",
+        "dob": "05/04/1980"
+    },
+    {
+        "id": 1,
+        "name": "Seow Joen",
+        "email": "seow.joen@gmail.com",
+        "gender": "Female",
+        "address": "977 Hrawey Street, SD",
+        "dob": "09/01/1988"
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "email": "john.doe@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "30/01/2001"
+    },
+    {
+        "id": 3,
+        "name": "Theresa Webb",
+        "email": "theresa.webb@gmail.com",
+        "gender": "Female",
+        "address": "4579 Huntz lane New York",
+        "dob": "05/08/1965"
+    },
+    {
+        "id": 4,
+        "name": "Droid Crew",
+        "email": "droid.crew@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "01/10/1982"
+    },
+    {
+        "id": 5,
+        "name": "Deo Rosa",
+        "email": "deo.rosa@gmail.com",
+        "gender": "Female",
+        "address": "4579 Huntz lane New York",
+        "dob": "28/09/1909"
+    },
+    {
+        "id": 6,
+        "name": "Tony Stark",
+        "email": "tony.stark@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "25/09/1990"
+    },
+    {
+        "id": 7,
+        "name": "Peter Parker",
+        "email": "peter.parker@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "16/08/1989"
+    },
+    {
+        "id": 8,
+        "name": "Jasmine Rose",
+        "email": "jasmine.rose@gmail.com",
+        "gender": "Female",
+        "address": "4579 Huntz lane New York",
+        "dob": "15/06/1970"
+    },
+    {
+        "id": 9,
+        "name": "Mac Miller",
+        "email": "mac.miller@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "10/04/1989"
+    },
+    {
+        "id": 10,
+        "name": "Suzuka Jackson",
+        "email": "suzuka.jackson@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "01/03/1949"
+    },
+    {
+        "id": 11,
+        "name": "Robert Junior",
+        "email": "robert.junior@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "12/11/1990"
+    },
+    {
+        "id": 12,
+        "name": "Glan Maxwell",
+        "email": "glan.maxwell@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "23/09/2000"
+    },
+    {
+        "id": 13,
+        "name": "Amber Heard",
+        "email": "amber.heard@gmail.com",
+        "gender": "Male",
+        "address": "4579 Huntz lane New York",
+        "dob": "13/01/1929"
+    },
+    {
+        "id": 14,
+        "name": "Vanie Dory",
+        "email": "vanie.dory@gmail.com",
+        "gender": "Female",
+        "address": "4579 Huntz lane New York",
+        "dob": "04/04/1904"
+    },
+    {
+        "id": 15,
+        "name": "Captain America",
+        "email": "captain.america@gmail.com",
+        "gender": "Male",
+        "address": "2579 Hunk lane LA",
+        "dob": "05/07/1901"
+    },
+    {
+        "id": 16,
+        "name": "Thor RangRok",
+        "email": "thor.rangrok@gmail.com",
+        "gender": "Male",
+        "address": "1379 Hunk lane LA",
+        "dob": "08/09/1909"
+    },
+    {
+        "id": 17,
+        "name": "Jessica Ronnie",
+        "email": "jessica.ronnie@gmail.com",
+        "gender": "Female",
+        "address": "2579 Hunk lane LA",
+        "dob": "27/07/1927"
+    },
+    {
+        "id": 18,
+        "name": "Lizzard King",
+        "email": "lizzard.king@gmail.com",
+        "gender": "Male",
+        "address": "2579 Hunk lane LA",
+        "dob": "05/07/1901"
+    },
+    {
+        "id": 19,
+        "name": "Stellar Mark",
+        "email": "stellar.mark@gmail.com",
+        "gender": "Male",
+        "address": "2579 Hunk lane LA",
+        "dob": "05/07/1901"
+    }
+]
