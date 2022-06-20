@@ -157,17 +157,17 @@ export class UsersListComponent implements OnInit {
   }
 
   logUser(item: any) {
-    this.deleteIndex = this.arr.findIndex((object: any) => {
-      return object.id == item.id;
-
-    })
-    this.name = this.arr[this.deleteIndex].name;
+    this.deleteIndex = item.id;
+    this.name = item.name;
   }
 
   //deletes row
 
-  deleteRow(id: number) {
-    this.data = this.arr.splice(id, 1);
+  deleteRow(id: any) {
+    let deleteId = id + '';
+    this.usersData.deleteUser(deleteId).subscribe((res)=>{
+      window.location.reload();
+    })
     this.dataSource = new MatTableDataSource<any>(this.arr);
     this.dataSource.paginator = this.paginator;
     this.getMaleFemaleCount(this.arr);
@@ -178,27 +178,25 @@ export class UsersListComponent implements OnInit {
     this.usersData.setProduct(count)
   }
   editUser(item: any) {
-    this.editIndex = this.arr.findIndex((object: any) => {
-      return object.id == item.id;
-    })
-
+    this.editIndex = item.id;
   }
 
   updateRowData(id: any) {
-    let idChoosen = id;
+    let idChoosen = id + '';
     this.updateArray(idChoosen);
     this.userInfo.reset();
   }
   updateArray(idChoosen: any) {
-    let newItem = {
-      id: idChoosen,
+    let reqObj = {
       name: this.userInfo.value.name,
       address: this.userInfo.value.address,
       email: this.userInfo.value.email,
       gender: (this.userInfo.value.gender == 1) ? 'Male' : 'Female',
       dob: this.userInfo.value.dob
     }
-    this.arr[idChoosen] = newItem;
+    this.usersData.putUsersList(idChoosen,reqObj).subscribe((res)=>{
+      window.location.reload();
+    })
     this.dataSource = new MatTableDataSource<any>(this.arr);
     this.dataSource.paginator = this.paginator;
     this.getMaleFemaleCount(this.arr);
