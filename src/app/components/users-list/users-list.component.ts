@@ -45,7 +45,7 @@ export class UsersListComponent implements OnInit {
       }
       this.usersData.setProduct(count);
     });
-    //restricts user to choose today date
+    //restricts user to choose future date
     let today = new Date()
     let d = today.toISOString().split('T')[0];
     this.maxDate = d;
@@ -88,8 +88,6 @@ export class UsersListComponent implements OnInit {
     }
     this.maleUsers = male;
     this.femaleUsers = female;
-    console.log("male-user" + this.maleUsers);
-    console.log("female-user" + this.femaleUsers);
   }
 
   isDisabled() {
@@ -125,7 +123,6 @@ export class UsersListComponent implements OnInit {
         this.dataSource.paginator.pageIndex *
         this.dataSource.paginator.pageSize;
     }
-    console.log(endIndex);
     return numSelected === endIndex;
   }
 
@@ -171,7 +168,6 @@ export class UsersListComponent implements OnInit {
 
   deleteRow(id: number) {
     this.data = this.arr.splice(id, 1);
-    console.log(this.arr);
     this.dataSource = new MatTableDataSource<any>(this.arr);
     this.dataSource.paginator = this.paginator;
     this.getMaleFemaleCount(this.arr);
@@ -185,11 +181,10 @@ export class UsersListComponent implements OnInit {
     this.editIndex = this.arr.findIndex((object: any) => {
       return object.id == item.id;
     })
-    console.log(this.editIndex);
+
   }
 
   updateRowData(id: any) {
-    console.log(this.arr[id]);
     let idChoosen = id;
     this.updateArray(idChoosen);
     this.userInfo.reset();
@@ -213,6 +208,8 @@ export class UsersListComponent implements OnInit {
     }
     this.usersData.setProduct(count)
   }
+
+  // used to query and get the reference of DOM element
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
