@@ -2,10 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 To run the project 
-(i) download or clone the repository
-(ii) open vs code and do npm i to install dependencies
-(iii) After that go inside project directory
-(iv) Build the project using ng serve
+(i) Download the database file and install fake json server using command npm install -g json-server
+(ii) then start the server locally using command json-server --watch dummy.json
+(iii) download or clone the repository
+(iv) open vs code and do npm i to install dependencies
+(v) After that go inside project directory
+(vi) Build the project using ng serve
 
 
 ## Development server
